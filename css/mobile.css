@@ -1,0 +1,49 @@
+@media (max-width: 1100px) {
+    .hero,
+    .summary-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .chart-card.span-3,
+    .chart-card.span-4,
+    .chart-card.span-5,
+    .chart-card.span-6 {
+        grid-column: span 12;
+    }
+}
+
+@media (max-width: 720px) {
+    .dashboard-shell {
+        padding: 20px 14px 36px;
+    }
+
+    .hero-card,
+    .summary-card,
+    .line-card,
+    .chart-card,
+    .equipment-card,
+    .modal-panel {
+        border-radius: 22px;
+    }
+
+    .hero-stats,
+    .line-metrics {
+        grid-template-columns: 1fr;
+    }
+
+    .modal {
+        padding: 10px;
+    }
+
+    .modal-panel {
+        padding: 18px;
+    }
+
+    .modal-header {
+        flex-direction: column;
+    }
+
+    .modal-detail-grid {
+        grid-template-columns: 1fr;
+    }
+}

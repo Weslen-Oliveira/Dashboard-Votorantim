@@ -1,0 +1,13 @@
+.dashboard-shell h1{
+    text-align: center;
+    font-size: 3em;
+}
+.spanItau{
+    color: blue;
+}
+.hero-card{
+    text-align: center;
+}
+.summary-number .pTag{
+    color: darkgreen;
+}
